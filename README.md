@@ -26,7 +26,7 @@ heroku open
 Alternatively, you can deploy your own copy of the app using this experimental
 web-based flow:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](http://localhost:3000/deploy?template=https://github.com/raulb/node-js-sample)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](http://localhost:3000/deploy)
 
 ## Documentation
 
