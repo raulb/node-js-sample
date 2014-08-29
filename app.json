@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/heroku/node-js-sample",
   "keywords": ["node", "express", "static"],
-  "addons": {
+  "addons": [
     "papertrail:awesome-plan",
     "newrelic:stark"
-  }
+  ]
 }
