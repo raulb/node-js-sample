@@ -3,6 +3,7 @@
   "keywords": ["node", "express", "static"],
   "addons": [
     "papertrail:awesome-plan",
-    "newrelic:stark"
+    "newrelic:stark",
+    "librato:incredible-free-plan"
   ]
 }
