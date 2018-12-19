@@ -1,4 +1,17 @@
 {
   "repository": "https://github.com/heroku/node-js-sample",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+  "addons": [
+    "openredis",
+    {
+      "plan": "mongolab:shared-single-small",
+      "as": "MONGO"
+    },
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ]  
 }
